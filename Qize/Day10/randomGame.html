@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Game ~ ;)</title>
+        <link rel="stylesheet" href="randomGame.css">
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1>Random Number Game </h1>
+        <p></p>
+        <div class="slidecontainer">
+            <h2 class="js-range">Generate a number between 0 and <span id="demo"></span></h2>
+            <input type="range" min="0" max="40" value="2" class="slider" id="myRange">
+          </div>
+          <p></p>
+          <form class="js-getNumber">
+            Guess the number :
+            <input type="number" placeholder="N" />
+            <button type="button">Play!</button>
+        </form>
+            <h4 class="resultIndex"></h4>
+        <script src="randomGame.js"></script>
+    </body>
+</html>
